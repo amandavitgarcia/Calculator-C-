@@ -9,11 +9,9 @@ namespace Calculator
     class Program 
     {
         static void Main(string[] args)
-        {
-            
+        {           
             Menu();
         }
-
         
         static void Menu(){
             Console.Clear();
@@ -61,7 +59,6 @@ namespace Calculator
            Console.WriteLine("O resultado da soma é " + resultadoA); 
 
            Thread.Sleep(4000);
-
            Menu();
         }
 
@@ -83,7 +80,6 @@ namespace Calculator
            Console.WriteLine($"O resultado da subtração é {resultadoB}");
 
            Thread.Sleep(4000);
-
            Menu();
         }
 
@@ -105,7 +101,6 @@ namespace Calculator
             Console.WriteLine($"O resultado da multiplicação é {c1 * c2}");
 
            Thread.Sleep(4000);
-
             Menu();
         }
 
@@ -127,7 +122,6 @@ namespace Calculator
             Console.WriteLine("O resultado da divisão é " + (d1 / d2));
 
            Thread.Sleep(4000);
-
             Menu();
         }
 
@@ -153,7 +147,6 @@ namespace Calculator
             Console.WriteLine("O resultado da potência é " + resultadoFloat);
 
            Thread.Sleep(4000);
-
             Menu();
         }
 
@@ -175,10 +168,8 @@ namespace Calculator
             Console.WriteLine($"O resto da divisão é {resultadoF}");
 
            Thread.Sleep(4000);
-
             Menu();
         }
-
         static void Sair(){
             Console.WriteLine("Calculadora finalizada");
 
