@@ -2,7 +2,6 @@
 Creating a calculator using C#.
 This calculator has the operations: addition, subtraction, multiplication, division, power and remainder of division.
 
-
 using System;
 
 namespace Calculator 
@@ -11,9 +10,11 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            
             Menu();
         }
 
+        
         static void Menu(){
             Console.Clear();
            
@@ -53,7 +54,7 @@ namespace Calculator
            Console.WriteLine("Segundo valor: ");
            float a2 = float.Parse(Console.ReadLine());
 
-           Console.WriteLine(""); 
+           Console.WriteLine("");
 
            float resultadoA = a1 + a2; 
 
@@ -62,14 +63,6 @@ namespace Calculator
            Thread.Sleep(4000);
 
            Menu();
-
-
-           Console.WriteLine("O resultado da soma é " + resultado);
-
-           Console.WriteLine($"O resultado da soma é {resultado}"); 
-           Console.WriteLine($"O resultado da soma é {v1 + v2}"); 
-
-           Console.WriteLine("O resultado da soma é " + (v1 + v2)); 
         }
 
         static void Subtracao(){
@@ -194,4 +187,5 @@ namespace Calculator
         }
     }
 }
+
 
